@@ -1,0 +1,1030 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Rubik", sans-serif;
+}
+
+
+/* ############################# Section-1 ############################# */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+}
+
+/* ###### logo the page ###### */
+.logoInHead {
+    width: 150px;
+}
+
+/* ###### a link ###### */
+.nav-link {
+    text-decoration: none;
+    color: #4F5665;
+
+}
+
+.links-for-top-page {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-boxs {
+    margin: 0 18px;
+}
+
+/* ###### End: a link ###### */
+
+/* ###### button top page ###### */
+.button-For-Top-Page {
+    display: flex;
+    align-items: center;
+}
+
+.button-Sign-UpIn {
+    margin: 0 10px;
+}
+
+.sign-In {
+    background: none;
+    border: none;
+    font-weight: bold;
+    color: #0B132A;
+}
+
+.sign-Up {
+    color: #F53855;
+    background-color: white;
+    border: 1px solid #F53855;
+    width: 120px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: bold;
+}
+
+/* ###### End: button top page ###### */
+
+/* ############################# End: Section-1 ############################# */
+
+/* ############################# Section-2 ############################# */
+
+/* ###### text of introduction ###### */
+
+.introduction {
+    font-size: 45px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.introduction .bold-1 {
+    font-weight: 700;
+}
+
+.text-introduction {
+    color: #4F5665;
+    margin-top: 30px;
+}
+
+.text-introduction .bold-2 {
+    font-weight: 600;
+}
+
+.click-to-go {
+    color: #FFFFFF;
+    background-color: #F53855;
+    border: 1px solid #F53855;
+    width: 200px;
+    height: 45px;
+    border-radius: 7PX;
+    margin-top: 35px;
+    box-shadow: 0px 25px 25px rgba(230, 5, 5, 0.19);
+}
+
+.group-Of-Welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+
+}
+
+.paragraph-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+.image-For-Get-Statred {
+    width: 600px;
+    height: 370px;
+}
+
+/* ############################# End: Section-2 ############################# */
+
+/* ############################# Section-3 ############################# */
+
+.group-Of-User-Location-Server {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(2rem, 0fr) minmax(2rem, 1fr) minmax(2rem, 0fr) minmax(2rem, 1fr);
+    place-items: center;
+    margin-top: 85px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 85px;
+    height: 200%;
+    box-shadow: 0px 25px 25px rgba(13, 16, 37, 0.2);
+    border-radius: 15px;
+
+}
+
+.empty-Line {
+    width: 2px;
+    height: 50%;
+    opacity: 0.4;
+    background-color: #0B132A;
+}
+
+
+/* ###### User ###### */
+.box-For-User {
+    display: flex;
+    padding: 30px;
+}
+
+.box-For-User .user-Icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 36px;
+}
+
+.box-For-User p {
+    color: #4F5665;
+}
+
+.box-For-User h1 {
+    color: #0B132A;
+}
+
+/* ###### End: User ###### */
+
+/* ###### Location ###### */
+
+.box-For-Location {
+    display: flex;
+    padding: 30px;
+}
+
+.box-For-Location .location-Icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 36px;
+}
+
+.box-For-Location p {
+    color: #4F5665;
+}
+
+.box-For-Location h1 {
+    color: #0B132A;
+}
+
+/* ###### End: Location ###### */
+
+/* ###### Servers ###### */
+
+.box-For-Server {
+    display: flex;
+    padding: 30px;
+}
+
+.box-For-Server .server-Icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 36px;
+}
+
+.box-For-Server p {
+    color: #4F5665;
+}
+
+.box-For-Server h1 {
+    color: #0B132A;
+}
+
+/* ###### End: Servers ###### */
+
+/* ############################# Section-4 ############################# */
+
+.correct-with-text {
+    display: flex;
+}
+
+.box-View-Features {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-For-Features {
+    color: #0B132A;
+}
+
+.title-For-Features {
+    font-size: 40px;
+}
+
+.decs-for-Features {
+    margin: 25px 0;
+    color: #4F5665;
+}
+
+.some-special-features p {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #4F5665;
+}
+
+/* .view-Features {
+    
+} */
+
+/* ############################# End: Section-4 ############################# */
+
+/* ############################# Section-5 ############################# */
+
+.background-For-Page-Plan {
+    background-color: #F6F6F6;
+}
+
+.box-Of-Introduction-About-Plan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.box-Of-Introduction-About-Plan h4 {
+    margin-top: 100px;
+    font-size: 40px;
+    color: #0B132A;
+}
+
+.box-Of-Introduction-About-Plan p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    color: #4F5665;
+}
+
+.box-Of-Plans {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price-and-select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+/* ###### Plan A ###### */
+
+.plan-A {
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-radius: 20px;
+}
+
+.plan-A p {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #4F5665;
+}
+
+.plan-A h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.plan-A h4 {
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.plan-A .box-gift {
+    margin-top: 40px;
+}
+
+.plan-A .available-features {
+    margin-bottom: 175px;
+}
+
+.select-Plan-A {
+    color: #F53855;
+    background-color: white;
+    border: 1px solid #F53855;
+    width: 180px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: 800;
+}
+
+/* ###### End: Plan A ###### */
+
+/* ###### Plan B ###### */
+
+.plan-B {
+    border: 2px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 70px;
+    border-radius: 20px;
+}
+
+.plan-B p {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #4F5665;
+}
+
+.plan-B h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.plan-B h4 {
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.plan-B .box-gift {
+    margin-top: 40px;
+}
+
+.plan-B .available-features {
+    margin-bottom: 135px;
+}
+
+.plan-B span {
+    color: #4F5665;
+    font-weight: normal;
+}
+
+.select-Plan-B {
+    color: #F53855;
+    background-color: white;
+    border: 1px solid #F53855;
+    width: 180px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: 800;
+}
+
+/* ###### End: Plan B ###### */
+
+/* ###### Plan C ###### */
+.plan-C {
+    border: 2px solid #F53838;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 70px;
+    border-radius: 20px;
+}
+
+.plan-C p {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    color: #4F5665;
+}
+
+.plan-C h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.plan-C h4 {
+    margin: 40px 0;
+    font-size: 20px;
+}
+
+.plan-C .box-gift {
+    margin-top: 40px;
+}
+
+.plan-C .available-features {
+    margin-bottom: 90px;
+}
+
+.plan-C span {
+    color: #4F5665;
+    font-weight: normal;
+}
+
+.select-Plan-C {
+    color: #FFFFFF;
+    background-color: #F53855;
+    border: 1px solid #F53855;
+    width: 180px;
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-weight: 800;
+    box-shadow: 0px 20px 25px rgba(230, 5, 5, 0.19);
+}
+
+/* ###### End: Plan C ###### */
+
+/* ############################# End: Section-5 ############################# */
+
+/* ############################# Section-6 ############################# */
+
+.background-For-Page-Map {
+    background-color: #F6F6F6;
+}
+
+.box-Of-Introduction-About-Map {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box-Of-Introduction-About-Map h4 {
+    margin-top: 160px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.box-Of-Introduction-About-Map p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 210px;
+    font-size: 22px;
+    color: #4F5665;
+}
+
+.box-Of-Introduction-About-Map span {
+    font-weight: 500;
+}
+
+.background-For-Page-Map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-Apps-Logos {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(2rem, 1fr) minmax(2rem, 1fr) minmax(2rem, 1fr) minmax(2rem, 1fr);
+    place-items: center center;
+}
+
+/* ############################# End: Section-6 ############################# */
+
+/* ############################# Section-7 ############################# */
+
+.background-For-Page-Comment {
+    background-color: #F6F6F6;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box-Of-Introduction-About-Comment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box-Of-Introduction-About-Comment h4 {
+    margin-top: 160px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #0B132A;
+}
+
+.box-Of-Introduction-About-Comment p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 22px;
+    color: #4F5665;
+}
+
+.all-Boxs-About-Comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box-comment-A {
+    border: 2px solid #F53838;
+    border-radius: 25px;
+    width: 400px;
+    height: 230px;
+    box-shadow: 0px 25px 25px rgba(13, 16, 37, 0.2);
+}
+
+.box-comment-B {
+    border: 2px solid #DDDDDD;
+    border-radius: 25px;
+    width: 400px;
+    height: 230px;
+}
+
+.box-comment-C {
+    border: 2px solid #DDDDDD;
+    border-radius: 25px;
+    width: 400px;
+    height: 230px;
+}
+
+.about-user-and-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-and-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.username-and-logo h4 {
+    color: #0B132A;
+}
+
+.username-and-logo p {
+    color: #4F5665;
+}
+
+.rate-from-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.rate-from-user p {
+    margin-right: 15px;
+    position: relative;
+    bottom: 1px;
+}
+
+.name-and-address-of-user-A {
+    margin-left: 20px;
+}
+
+.comment-from-user {
+    padding: 0 20px 20px 20px;
+    line-height: 25px;
+}
+
+.count-of-comment {
+    display: flex;
+}
+
+.move-between-comments {
+    display: flex;
+    justify-content: end;
+}
+
+.tools-to-move-between-all-comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+.page-viewing-now {
+    background-color: #F53838;
+    width: 45px;
+    height: 15px;
+    border-radius: 50px;
+    border: 1px solid #F53838;
+}
+
+.page-pasted {
+    background-color: #DDE0E4;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    border: 1px solid #DDE0E4;
+    margin-left: 15px;
+}
+
+.to-move-left {
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: 3px solid #F53838;
+    border-radius: 100%;
+}
+
+.to-move-right {
+    width: 60px;
+    height: 60px;
+    background-color: #F53838;
+    border: 3px solid #F53838;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+/* ############################# End: Section-7 ############################# */
+
+/* ############################# Section-8 ############################# */
+
+.ads-to-subscribe {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.ads-to-subscribe h4 {
+    color: #0B132A;
+    font-size: 35px;
+}
+
+.ads-to-subscribe p {
+    color: #4F5665;
+    font-size: 16px;
+}
+
+.button-for-subscribe {
+    color: #FFFFFF;
+    background-color: #F53838;
+    border: 1px solid #F53838;
+    width: 200px;
+    height: 45px;
+    border-radius: 7PX;
+    box-shadow: 0px 25px 25px rgba(230, 5, 5, 0.19);
+}
+
+.background-for-window-subscribe {
+    width: 70%;
+    height: 233px;
+}
+
+.box-for-the-user-to-subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.background-for-window-subscribe {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px -25px 25px rgba(221, 221, 221, 0.54);
+}
+
+/* ############################# End: Section-8 ############################# */
+
+/* ############################# Section-9 ############################# */
+
+.all-media-apps {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-of-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contents-for-hole-page {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.product-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 30px;
+}
+
+.product-line h4 {
+    color: #0B132A;
+}
+
+.product-line p {
+    color: #4F5665;
+}
+
+.engage-line h4 {
+    color: #0B132A;
+}
+
+.engage-line p {
+    color: #4F5665;
+}
+
+.earn-money-line h4 {
+    color: #0B132A;
+}
+
+.earn-money-line p {
+    color: #4F5665;
+}
+
+.engage-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.earn-money-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 30px;
+}
+
+.logo-VPN-in-footer {
+    width: 150px
+}
+
+.communication span {
+    font-weight: 600;
+    color: #4F5665;
+}
+
+.communication p {
+    color: #4F5665;
+    margin: 20px 0;
+}
+
+.facebook-logo,
+.img-for-media {
+    background-color: #F53838;
+    border: 02px solid #FFFFFF;
+    width: 35px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2px;
+}
+
+.twitter-logo,
+.img-for-media {
+    background-color: #F53838;
+    border: 2px solid #FFFFFF;
+    width: 35px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2px;
+}
+
+.instagram-logo,
+.img-for-media {
+    background-color: #F53838;
+    border: 2px solid #FFFFFF;
+    width: 35px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2px;
+}
+
+.engage-line {
+    margin: 0 126px;
+    line-height: 30px;
+}
+
+p.copy-right {
+    color: rgba(175, 181, 192, 0.7);
+}
+
+/* ####################################################### This part for Heading: */
+@media only screen and (max-width: 900px) {
+
+    .logo-VPN-in-header {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links-for-top-page {
+        display: flex;
+        flex-direction: column;
+        line-height: 55px;
+    }
+
+    .button-For-Top-Page {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .button-Sign-UpIn {
+        padding: 15px 0;
+    }
+}
+
+/* ####################################################### This part for strarted-The-Service: */
+@media only screen and (max-width: 1250px) {
+    .group-Of-Welcome {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .paragraph-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 85px;
+        margin: 0;
+        margin-top: 45px;
+    }
+}
+
+/* ####################################################### This part for info-About-Us: */
+@media only screen and (max-width: 1050px) {
+
+    .group-Of-User-Location-Server {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .empty-Line {
+        width: 150px;
+        height: 2px;
+        background-color: #0B132A;
+        opacity: 0.4;
+        margin: 40px 0;
+    }
+}
+
+/* ####################################################### This part for view-Features: */
+@media only screen and (max-width: 1050px) {
+
+    .box-View-Features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .user-love-features {
+        margin-bottom: 85px;
+    }
+
+}
+
+/* ####################################################### This part for box-of-plan: */
+@media only screen and (max-width: 1050px) {
+
+    .box-Of-Plans {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plan-B {
+        margin: 40px 0;
+    }
+
+}
+
+/* ####################################################### This part for map: */
+@media only screen and (max-width: 1050px) {
+
+    .map {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+/* ####################################################### This part for social media: */
+@media only screen and (max-width: 1050px) {
+    .all-Apps-Logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apps-Logo {
+        margin: 20px;
+    }
+}
+
+/* ####################################################### This part for comments: */
+@media only screen and (max-width: 1050px) {
+
+    .background-For-Page-Comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all-Boxs-About-Comment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count-of-comment {
+        margin-right: 50px;
+    }
+
+}
+
+/* ####################################################### This part for box of subscribe: */
+@media only screen and (max-width: 1080px) {
+    .box-for-the-user-to-subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ads-to-subscribe {
+        text-align: center;
+    }
+
+    .ads-to-subscribe p {
+        margin: 30px 0;
+        text-align: center;
+    }
+}
+
+/* ####################################################### This part for box of footer: */
+@media only screen and (max-width: 925px) {
+
+    .bottom-of-page {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .communication {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+}
